@@ -51,7 +51,7 @@ function App() {
               value={password}
               className="outline-none w-full py-2 px-3 text-white font-bold bg-gray-700 placeholder-white placeholder:font-bold"
               placeholder="Generated password"
-              readOnly
+              readonly
              ref={passwordRef}
         />
         <button
